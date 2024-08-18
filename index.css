@@ -609,13 +609,13 @@ ul li{
   
 @media screen and (min-device-width: 275px)  and (max-device-width: 481px) {
    p{
-    font-size: 30px;
+    font-size: 60px;
 
    }
     .padges{
-        top: 39%;
-        left: -23.8%;
-
+        top: 0;
+        left: 1%;
+        font-size: 20px;
     }
     ul li{
         padding: 6px;
@@ -624,25 +624,28 @@ ul li{
     }
     #contaner {
         width: 660px;
-        height: 900px;
+        height: 1500px;
+        padding: 150px;
     }
       
     .content .card ,.content2 .card,.content3 .card,.content4 .card{
-        width: 610px;
-        height: 900px;
-        margin: 15px;
+        width: 660px;
+        height: 1400px;
+        padding: 100px;
+        /* margin: 15px; */
     
     }
     .card img {
-        width: 590px;
-        height: 300px;
-        transform: translate(10px,20px);
+        width: 800px;
+        height: 400px;
+        transform: translate(-70px,20px);
     }
     .prev,
 .next ,.prev2,
 .next2 {
-    width: 30px;
-    height: 100px;
+    width: 50px;
+    height: 200px;
+  font-size: 40px;
 }
     
 .header{
@@ -651,9 +654,28 @@ ul li{
     margin-top: 5px;
 }
 
-.localTime {
+/* .localTime {
     margin-top:50px ;
+} */
+
+
+#dot,#dot2 {
+   
+    bottom: 3%;
+    transform: translateY(-20%);
+    padding: 20px 20px;
+    
 }
+
+#dot div,#dot2 div {
+    top: 5px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    transform: translateY(-40%);
+    width: 20px;
+    height: 20px;
+}
+
       }
 
  
